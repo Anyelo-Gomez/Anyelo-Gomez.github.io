@@ -18,6 +18,13 @@ main{
     
 }
 
+footer{
+    width: 800px;
+    margin: 0px auto;
+    background-color: aliceblue;
+    margin-bottom: 30px;
+}
+
 label{
     color: whitesmoke;
     text-shadow: 1px 1px black;
@@ -141,12 +148,6 @@ label{
 }
 
 
-
-.contentJugar{
-    margin-top: 0px;
-}
-
-
 .contentJugar input[type='submit']{
     
     padding: 10px 40px;
@@ -169,3 +170,18 @@ label{
     text-shadow: 1px 1px rgba(255, 255, 255, 0.283);
     
 }
+
+.cotentFooter{
+    text-align: center;
+    
+}
+
+.footerLogo{
+    margin: 10px 0px;
+}
+
+.cotentFooter img{
+    width: 25px;
+}
+
+
