@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/juego.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <main class="main">
+        
+        <div class="contentAll">
+            
+        
+            <section class="contentJuego">
+
+                <div id="juego">
+                    
+                </div>
+                <div id="contentAtras">
+                    
+                </div>
+
+                <div class="contentVolverJugar">
+
+                    <div class="contentBtnVolver">
+                        <h3>GAME OVER</h3>
+                        <button id="btnVolverJugar">VOLVER A JUGAR</button>
+
+                    </div>
+
+                </div>
+
+
+            </section>
+            
+            
+            <section  class="contentInfo">
+
+                <div class="contentNick">
+                    <div class="avatarNick"><img id="avatarImg" src="" alt=""></div>
+                    <input type="text" id="nick" readonly="true">
+                </div>
+                
+                <div class="contentPuntos">
+                    <label for="puntos">PUNTOS</label>
+                    <input type="text" id="puntos" value="0" readonly="true">
+                </div>
+                <div class="contentTime">
+                    <label for="timeJuego">TIEMPO</label>
+                    <input type="text" id="timeJuego" value="0" readonly="true">
+                </div>
+
+            </section>
+        </div>
+
+    </main>
+    
+    <script src="js/data.js"></script>
+    <script src="js/juego.js"></script>
+</body>
+</html>

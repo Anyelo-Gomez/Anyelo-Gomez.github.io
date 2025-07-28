@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exile&family=Indie+Flower&family=Jersey+15&family=Oswald:wght@200..700&family=Pacifico&family=Pixelify+Sans:wght@400..700&family=Playpen+Sans+Arabic:wght@100..800&display=swap');
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    
+    <main>
+        <form action="juego.html" id="formUser">
+
+            <div class="contentError">
+
+                <p id="error"></p>
+
+            </div>
+
+            <div class="contentNick">
+                    
+                <label for="nick">INTRODUCE TU NICK</label>
+                
+                <div class="nickInput">
+                    <input type="text" id="nicka" value="@" readonly>
+                    <input type="text" id="nick" placeholder="nick">  
+                    
+                </div>
+                    
+            </div>
+            
+            <div class="contentEmail">
+
+                <label for="email">INTRODUCE TU EMAIL</label>
+                <input type="email" id="email" placeholder="email">
+            
+            </div>
+
+
+            <div class="contentTamanio">
+
+                <select name="optionTamano" id="optionTamanio">
+                    <option value="0">--Elige una option--</option>
+                    <option value="4">Easy</option>
+                    <option value="5">Normal</option>
+                    <option value="6">Pro</option>
+                </select>
+
+                <p>*Obligatorio</p>
+
+            </div>
+
+            <div class="contentAvatar">
+
+                <div class="avatar">
+                    
+                    <div class="itemAvatar"><img src="img/dragonball/avatar Dragonball/bills.png" alt=""></div>
+
+                </div>
+                <div class="avatars">
+
+                    <div class="itemAvatars"><img src="img/dragonball/avatar Dragonball/bills.png" alt=""></div>
+                    <div class="itemAvatars"><img src="img/dragonball/avatar Dragonball/freezer.png" alt=""></div>
+                    <div class="itemAvatars"><img src="img/dragonball/avatar Dragonball/gohan grande.png" alt=""></div>
+                    <div class="itemAvatars"><img src="img/dragonball/avatar Dragonball/gohan.png" alt=""></div>
+                    <div class="itemAvatars"><img src="img/dragonball/avatar Dragonball/goku.png" alt=""></div>
+                    <div class="itemAvatars"><img src="img/dragonball/avatar Dragonball/roshi.png" alt=""></div>
+                    <div class="itemAvatars"><img src="img/dragonball/avatar Dragonball/whis.png" alt=""></div>
+                    <div class="itemAvatars"><img src="img/dragonball/avatar Dragonball/vegeta.png" alt=""></div>
+
+
+                </div>
+            </div>
+
+            <div class="contentJugar">
+                    
+                <input type="submit" id="jugar" value="JUGAR">
+
+            </div>
+
+        </form>
+    </main>
+    <script src="js/data.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
